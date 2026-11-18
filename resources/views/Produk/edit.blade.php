@@ -17,7 +17,7 @@
               class="form-card">
             @csrf
             @method('PUT')
-            @include('produk._form', ['tombol' => 'Perbarui Produk'])
+            @include('produk.form', ['tombol' => 'Perbarui Produk'])
         </form>
     </div>
 </main>
